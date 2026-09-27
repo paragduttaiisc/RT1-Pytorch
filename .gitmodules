@@ -1,0 +1,3 @@
+[submodule "universal_sentence_encoder"]
+	path = universal_sentence_encoder
+	url = https://github.com/paragduttaiisc/universal_sentence_encoder_pytorch.git
