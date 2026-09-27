@@ -1,0 +1,13 @@
+# RT-1 PyTorch runtime -- core inference dependencies (no TensorFlow).
+# Verified on Python 3.10.
+torch==2.5.1
+numpy==1.24.4
+onnx2pytorch==0.5.3
+matplotlib>=3.5
+
+# SimplerEnv evaluation (heavy: ManiSkill2 + SAPIEN, NVIDIA GPU required).
+# Install per https://github.com/simpler-env/SimplerEnv#installation:
+#   pip install numpy==1.24.4
+#   git clone https://github.com/simpler-env/SimplerEnv --recurse-submodules
+#   pip install -e SimplerEnv/ManiSkill2_real2sim
+#   pip install -e SimplerEnv

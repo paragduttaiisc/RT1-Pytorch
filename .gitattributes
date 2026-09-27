@@ -1,0 +1,2 @@
+# RT-1 / RT-1-X PyTorch checkpoints: track with Git LFS
+models/* filter=lfs diff=lfs merge=lfs -text
