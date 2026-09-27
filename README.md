@@ -132,8 +132,6 @@ Episode stats: {...}
 
 Notes:
 
-- `render_mode="human"` opens a Matplotlib window per step; for headless
-  machines pass `render_mode="rgb_array"` (or drop the argument).
 - `info["episode_stats"]` (printed at the end) carries the episode
   success/length metrics reported by SimplerEnv.
 - **RT-1-X**: the processed `action` dict always contains the same 4 keys
